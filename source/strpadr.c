@@ -1,8 +1,14 @@
-/* 
+/**
+ * Add padding to the right side of a string.
  *
- * strpadr
- *  Add padding to right side of string
+ * @param s String to add padding to.
+ * @param w Width of string (including padding).
+ * @param c Character to use as padding.
  *
+ * @return Newly allocated string padded with width `w`, or a copy of `s` if
+ *         `strlen(s) >= w`. Returns NULL if allocation failed.
+ * 
+ * @note The returned string must be freed by the caller.
  */
 
 #include "../xstring.h"

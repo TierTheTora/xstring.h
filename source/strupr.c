@@ -1,8 +1,11 @@
-/* 
+/**
+ * Convert a string to uppercase (in place).
  *
- * strupr
- *  Set string to all uppercase
+ * @param s String to convert to uppercase.
  *
+ * @return Pointer to the string `s` (converted to uppercase).
+ * 
+ * @note Only ASCII characters A-Z are converted.
  */
 
 #include "../xstring.h"

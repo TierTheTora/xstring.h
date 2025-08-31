@@ -1,8 +1,12 @@
-/* 
+/**
+ * Replace letters in a string.
  *
- * strcrepl
- *  Replace search with rep in s
+ * @param s      String to replace characters in.
+ * @param search Character to search for.
+ * @param rep    Character to replace with.
  *
+ * @return A pointer to a string with all occurances of `search` replaced
+ *         with `rep`.
  */
 
 #include "../xstring.h"

@@ -1,8 +1,16 @@
-/* 
+/**
+ * Append multiple strings to a destination string.
  *
- * nstrcat
- *  Append n strings to s
+ * @param n   Number of strings to append.
+ * @param s   Destination string (must have enough space to hold appended
+ *            strings).
+ * @param ... Variable number of pointers to null terminated strings to
+ *            append.
  *
+ * @return Pointer to the destination string `s`.
+ *
+ * @note The destination string `s` must have enough space allocated for the
+ *       concatenated result, as this function does not do bounds checking.
  */
 
 #include "../xstring.h"

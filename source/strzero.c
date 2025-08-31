@@ -1,8 +1,7 @@
-/* 
+/**
+ * Clear an entire string by setting all characters to '\0'.
  *
- * strzero
- *  Set entire string to null
- *
+ * @param s String to clear.
  */
 
 #include "../xstring.h"

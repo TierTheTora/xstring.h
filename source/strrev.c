@@ -1,8 +1,9 @@
-/* 
+/**
+ * Reverse a given string (in place).
  *
- * strrev
- *  Reverse string in place
+ * @param s String to reverse.
  *
+ * @return A pointer to `s` (reversed).
  */
 
 #include "../xstring.h"

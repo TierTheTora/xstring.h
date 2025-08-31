@@ -1,8 +1,9 @@
-/* 
+/**
+ * Check if a given string is alphanumeric.
  *
- * isstralnum
- *  Is string alphanumeric
+ * @param s Pointer to a null-terminated string to check.
  *
+ * @return true if string contains either letters A-Z/a-z or digits 0-9.
  */
 
 #include "../xstring.h"

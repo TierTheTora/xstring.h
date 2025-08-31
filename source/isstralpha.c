@@ -1,8 +1,9 @@
-/* 
+/**
+ * Check if a given string is alphabetic.
  *
- * isstralpha
- *  Is string alphabetic
+ * @param s Pointer to a null-terminated string to check.
  *
+ * @return true if string contains only letters A-Z/a-z.
  */
 
 #include "../xstring.h"
