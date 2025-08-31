@@ -1,4 +1,4 @@
-/* 
+/**
  * Trim characters from the right end of a given string.
  *
  * Removes all characters from the end of the string `s` that are

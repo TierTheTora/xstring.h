@@ -1,4 +1,4 @@
-/* 
+/**
  * Trim characters from the left end of a given string.
  *
  * Removes all characters from the start of the string `s` that are
