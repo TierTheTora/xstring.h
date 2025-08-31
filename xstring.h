@@ -33,6 +33,8 @@ char* strlwr(char*);
 
 int strcmpi(const char*, const char*);
 
+bool isstrnum(const char*);
+
 bool isstralpha(const char*);
 
 bool isstralnum(const char*);
@@ -60,5 +62,7 @@ char* strcrepl(char*, const char, const char);
 char* substr(char*, size_t, size_t);
 
 void strxor(char*, const char*);
+
+void strrot(char*, int);
 
 #endif // XSTRING_H
